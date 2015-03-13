@@ -67,7 +67,6 @@ Included are two little helper scripts, rebuild and restart.
 $ # diff -r files/etc files/etc.ORG
 ```
 
-Most of the changes are from this excelent howto:
-https://docs.google.com/document/d/14LnsBznOw0w2fR7xgBJhzyWp1OztlKO6D5fws0XpjBI/edit?pli=1
+Most of the changes are from [this excelent howto] (https://docs.google.com/document/d/14LnsBznOw0w2fR7xgBJhzyWp1OztlKO6D5fws0XpjBI/edit?pli=1)
 
 
