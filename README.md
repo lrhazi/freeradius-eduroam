@@ -21,6 +21,8 @@ This is a Dockerfile and supporting config files and simple scripts, that should
         lrhazi/freeradius-eduroam
 ```
 
+Replace SERVER1 SERVER2 and THEPASS with your eduroam info.
+
 ### How to use it?
 
 Run BASH in a second instance of the image, linked to the first:
