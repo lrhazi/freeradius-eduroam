@@ -43,6 +43,7 @@ Run BASH in a second instance of the image, linked to the first:
       root@d0f5dc311408:~# ./test.sh <A VALID USERNAME @ an EDUROAM instituation> <USER's PASSWORD>
       Reading configuration file 'test.conf'
       Line: 1 - start of a new network block
+      ...
       eapol_sm_cb: success=1
       EAPOL: Successfully fetched key (len=32)
       PMK from EAPOL - hexdump(len=32): 54 0b 6d 07 08 b8 ac 94 81 fc 7e c0 3e 4c 7a 8f b2 8b c1 6a 75 09 08 d4 9c 1f       27 33 86 ad b1 98
