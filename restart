@@ -1,0 +1,10 @@
+#!/bin/zsh -x
+
+S1=$1
+S2=$2
+P=$3
+
+docker stop freeradius-eduroam; docker rm freeradius-eduroam
+docker run -d --name freeradius-eduroam -v /var/log/freeradius-eduroam:/var/log/freeradius -v /etc/localtime:/etc/localtime:ro -p 1912:1812/udp -p 1913:1813/udp \
+  -e EDUROAM_SERVER_1="$S1" -e EDUROAM_SERVER_2="$2" -e EDUROAM_PASSWORD="$P"  \
+  lrhazi/freeradius-eduroam
