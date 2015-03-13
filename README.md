@@ -1,4 +1,4 @@
-#FreeRADIUS with EDUROAM minimal config
+##FreeRADIUS with EDUROAM minimal config
 
 This is a Dockerfile and supporting config files and simple scripts, that should allow one to run a freeradius version 3 instance ready to authenticate users via EDUROAM.
 
